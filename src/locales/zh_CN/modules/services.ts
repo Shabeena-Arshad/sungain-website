@@ -1,3 +1,3 @@
 export default {
-  title: "Services"
+  title: "服务项目"
 };

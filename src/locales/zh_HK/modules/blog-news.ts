@@ -1,3 +1,3 @@
 export default {
-  title: "Blog & News"
+  title: "部落格與新聞"
 };

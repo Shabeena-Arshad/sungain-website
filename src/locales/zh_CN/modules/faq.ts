@@ -1,3 +1,3 @@
 export default {
-  title: "FAQ"
+  title: "常见问题"
 };

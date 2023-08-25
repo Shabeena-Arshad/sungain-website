@@ -1,3 +1,3 @@
 export default {
-  title: "Recycling Process"
+  title: "回收过程"
 };

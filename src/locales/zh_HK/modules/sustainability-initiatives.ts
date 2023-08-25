@@ -1,3 +1,3 @@
 export default {
-  title: "Sustainability Initiatives"
+  title: "可持續倡議"
 };

@@ -1,3 +1,3 @@
 export default {
-  title: "Industries Served"
+  title: "服务产业"
 };
