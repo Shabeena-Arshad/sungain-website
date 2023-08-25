@@ -1,0 +1,10 @@
+@import "./quasar.variables.scss";
+
+.q-router-link--exact-active {
+  color: primary !important;
+}
+
+.q-item.q-router-link--active .q-item__section,
+.q-item--active .q-item__section {
+  color: var(--q-primary) !important;
+}
