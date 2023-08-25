@@ -75,28 +75,28 @@
   const handleToggleUpdate = (newVal: any) => {
     switch (newVal) {
       case "services":
-        router.push("/buy");
+        router.push("/services");
         break;
       case "recyclingProcess":
-        router.push("/rent-listing");
+        router.push("/recycling-process");
         break;
       case "industriesServed":
-        router.push("/property-listing");
+        router.push("/industries-served");
         break;
       case "testimonials":
-        router.push("/agents");
+        router.push("/testimonials");
         break;
       case "aboutus":
         router.push("/about-us");
         break;
       case "sustainabilityInitiatives":
-        router.push("/about-us");
+        router.push("/sustainability-initiatives");
         break;
       case "faq":
-        router.push("/about-us");
+        router.push("/faq");
         break;
-      case "blognews":
-        router.push("/about-us");
+      case "blogNews":
+        router.push("/blog-news");
         break;
       default:
         break;

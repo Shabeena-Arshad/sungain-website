@@ -7,25 +7,25 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("@/views/modules/home/index.vue")
   },
   {
-    path: "/buy",
-    name: "BuyPage",
-    component: () => import("@/views/modules/buy/index.vue")
+    path: "/services",
+    name: "services",
+    component: () => import("@/views/modules/services/index.vue")
   },
   {
-    path: "/rent-listing",
-    name: "RentPage",
-    component: () => import("@/views/modules/rent/index.vue")
+    path: "/recycling-process",
+    name: "recyclingProcess",
+    component: () => import("@/views/modules/recycling-process/index.vue")
   },
   {
-    path: "/property-listing",
-    name: "property-listing",
-    component: () => import("@/views/modules/list/index.vue"),
+    path: "/industries-served",
+    name: "industriesServed",
+    component: () => import("@/views/modules/industries-served/index.vue"),
     props: true
   },
   {
-    path: "/agents",
-    name: "agents",
-    component: () => import("@/views/modules/agents/index.vue")
+    path: "/testimonials",
+    name: "testimonials",
+    component: () => import("@/views/modules/testimonials/index.vue")
   },
   {
     path: "/about-us",
@@ -33,20 +33,21 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("@/views/modules/about-us/index.vue")
   },
   {
-    path: "/recommendation/:id",
-    name: "recommendation",
-    component: () => import("@/views/modules/recommendation/index.vue")
+    path: "/sustainability-initiatives",
+    name: "sustainabilityInitiatives",
+    component: () => import("@/views/modules/sustainability-initiatives/index.vue")
   },
   {
-    path: "/property-detail/:id",
-    name: "property-detail",
-    component: () => import("@/views/modules/property-details/index.vue")
+    path: "/faq",
+    name: "faq",
+    component: () => import("@/views/modules/faq/index.vue")
   },
-  // {
-  //   path: "/property-detail/:id",
-  //   name: "property-detail",
-  //   component: () => import("@/views/modules/property-details/index.vue")
-  // },
+  {
+    path: "/blog-news",
+    name: "blogNews",
+    component: () => import("@/views/modules/blog-news/index.vue")
+  },
+
   {
     path: "/:catchAll(.*)",
     name: "not-found",
