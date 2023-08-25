@@ -44,7 +44,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/blog",
-    name: "blog",
+    name: "blognews",
     component: () => import("@/views/modules/blog-news/index.vue")
   },
 

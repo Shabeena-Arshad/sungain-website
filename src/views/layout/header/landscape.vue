@@ -95,7 +95,7 @@
       case "faq":
         router.push("/faq");
         break;
-      case "blog":
+      case "blognews":
         router.push("/blog");
         break;
       default:

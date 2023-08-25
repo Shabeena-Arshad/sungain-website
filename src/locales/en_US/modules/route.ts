@@ -1,9 +1,12 @@
 export default {
   navComponents: {
-    buy: "Buy",
-    rent: "Rent",
-    list: "List",
-    agents: "Agents",
-    aboutUs: "About Us"
+    services: "Services",
+    recyclingProcess: "Recycling Process",
+    industriesServed: "Industries Served",
+    testimonials: "Testimonials",
+    aboutUs: "About Us",
+    sustainabilityInitiatives: "Sustainability Initiatives",
+    faq: "FAQ",
+    blognews: "Blog & News"
   }
 };
