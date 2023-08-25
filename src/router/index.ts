@@ -29,7 +29,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/about-us",
-    name: "about-us",
+    name: "aboutus",
     component: () => import("@/views/modules/about-us/index.vue")
   },
   {
@@ -43,8 +43,8 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("@/views/modules/faq/index.vue")
   },
   {
-    path: "/blog-news",
-    name: "blogNews",
+    path: "/blog",
+    name: "blog",
     component: () => import("@/views/modules/blog-news/index.vue")
   },
 

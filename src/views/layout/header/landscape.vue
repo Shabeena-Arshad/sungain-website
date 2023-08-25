@@ -43,7 +43,7 @@
             value: 'sustainabilityInitiatives'
           },
           { label: $t('layout.menu.faq'), value: 'faq' },
-          { label: $t('layout.menu.blognews'), value: 'aboutus' }
+          { label: $t('layout.menu.blognews'), value: 'blog' }
         ]"
         @update:model-value="handleToggleUpdate"
       />
@@ -95,8 +95,8 @@
       case "faq":
         router.push("/faq");
         break;
-      case "blogNews":
-        router.push("/blog-news");
+      case "blog":
+        router.push("/blog");
         break;
       default:
         break;

@@ -1,28 +1,33 @@
 import aboutUs from "./modules/about-us";
 import action from "./modules/action";
-import agent from "./modules/agent";
+import blogNews from "./modules/blog-news";
 import contact from "./modules/contact";
 import errors from "./modules/errors";
+import faq from "./modules/faq";
+import industriesServed from "./modules/industries-served";
 import home from "./modules/home";
 import layout from "./modules/layout";
-import listingRequest from "./modules/listing-request";
-import propertyListing from "./modules/property-listing";
+import recyclingProcess from "./modules/recycling-process";
 import route from "./modules/route";
-import recommend from "./modules/recommend";
+import services from "./modules/services";
 import searchBar from "./modules/search-bar";
+import sustainabilityInitiatives from "./modules/sustainability-initiatives";
+import testimonials from "./modules/testimonials";
 
 export default {
   aboutUs,
   action,
-  agent,
+  blogNews,
   contact,
   errors,
+  faq,
+  industriesServed,
   home,
   layout,
-  listingRequest,
-  propertyListing,
-
+  recyclingProcess,
   route,
-  recommend,
-  searchBar
+  services,
+  searchBar,
+  sustainabilityInitiatives,
+  testimonials
 };
