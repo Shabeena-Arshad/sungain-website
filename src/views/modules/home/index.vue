@@ -42,6 +42,7 @@
   <div v-else>
     <q-img src="@/assets/img/home-bg.webp" :ratio="3 / 1" style="height: 380px" />
   </div>
+  <recycling-process />
 </template>
 
 <script setup lang="ts">
@@ -53,6 +54,7 @@
   import FloorTiles from "@/assets/img/floor-tiles-banner.jpg";
   import CollectionService from "@/assets/img/collection-service.jpg";
   import VehicleRecycling from "@/assets/img/vehicle-recycling.jpg";
+  import RecyclingProcess from "./recycling-process.vue";
   // 3rd Party Import
   import { useQuasar } from "quasar";
 
