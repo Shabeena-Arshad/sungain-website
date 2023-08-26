@@ -1,6 +1,6 @@
 <template>
-  <q-card flat>
-    <q-card-section class="q-ma-xl q-pa-none column justify-center items-center">
+  <q-card flat class="q-pa-xl">
+    <q-card-section class="column justify-center items-center">
       <q-card-section class="q-ma-none q-pa-none">
         <q-item-section class="text-h4 text-dark text-center">RECYCLING PROCESS</q-item-section>
         <q-item-section><q-separator color="orange" inset /></q-item-section>

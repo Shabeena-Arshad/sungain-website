@@ -43,6 +43,7 @@
     <q-img src="@/assets/img/home-bg.webp" :ratio="3 / 1" style="height: 380px" />
   </div>
   <recycling-process />
+  <testimonials-section />
 </template>
 
 <script setup lang="ts">
@@ -55,6 +56,7 @@
   import CollectionService from "@/assets/img/collection-service.jpg";
   import VehicleRecycling from "@/assets/img/vehicle-recycling.jpg";
   import RecyclingProcess from "./recycling-process.vue";
+  import TestimonialsSection from "./testimonials-section.vue";
   // 3rd Party Import
   import { useQuasar } from "quasar";
 
