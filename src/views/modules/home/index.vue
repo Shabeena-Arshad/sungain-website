@@ -12,7 +12,6 @@
         transition-duration="1200"
         :autoplay="slideInterval"
         arrows
-        class="bg-primary"
       >
         <q-carousel-slide
           v-for="row in data"
@@ -22,6 +21,20 @@
           :img-src="row.img !== null && row.img !== '' ? `${row.img}` : `@/assets/img/home-bg.webp`"
           @click="showPropertyDetails(row)"
         >
+          <q-item class="absolute-full text-subtitle2 flex flex-center justify-center items-center">
+            <q-item-section class="items-center">
+              <q-item-label class="text-overline text-white">{{ row.tagline }}</q-item-label>
+              <q-item-label class="text-h3 text-orange">{{ row.description }}</q-item-label>
+              <q-item-label class="q-mt-none"
+                ><q-btn
+                  flat
+                  square
+                  class="text-green-1 bg-orange q-mb-lg q-mt-md"
+                  @click="$router.push('/services')"
+                  label="Learn More"
+              /></q-item-label>
+            </q-item-section>
+          </q-item>
         </q-carousel-slide>
       </q-carousel>
     </q-responsive>
@@ -46,23 +59,33 @@
   const data = ref([
     {
       id: 1,
-      img: WelcomeImage
+      img: WelcomeImage,
+      tagline: "WELCOME TO",
+      description: "Sungain Recycling Metals"
     },
     {
       id: 2,
-      img: MetalsPurchased
+      img: MetalsPurchased,
+      tagline: "Material We Accept",
+      description: "FERROUS METALS, NON-FERROUS Metals"
     },
     {
       id: 3,
-      img: FloorTiles
+      img: FloorTiles,
+      tagline: "FERROUS METALS",
+      description: "Sheet Iron, Bushling, Heavy, Cast, Turnings, Motors, Auto Cast, Dies and Rotors"
     },
     {
       id: 4,
-      img: CollectionService
+      img: CollectionService,
+      tagline: "NON-FERROUS METALS",
+      description: "RED METALS, ALUMINUM, STAINLESS STEEL AND LEAD"
     },
     {
       id: 5,
-      img: VehicleRecycling
+      img: VehicleRecycling,
+      tagline: "Welcome to",
+      description: "Sungain Recycling Metals"
     }
   ]);
 
